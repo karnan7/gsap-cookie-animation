@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;600;700&family=Krona+One&family=Montserrat&family=Playfair+Display&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,100&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cookie-container{
+    background: linear-gradient(260deg, #9b6c50 0%, #4f2626 100%);
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20rem;
+    height: 10rem;
+    border-radius: 1.2rem;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+.cookie{
+    transform: scale(0.6);
+    overflow: visible;
+}
+
+.text{
+    width: 80%;
+}
+
+.cookie-title{
+    font-size: 1rem;
+    font-weight:lighter ;
+}
+.cookie-subtitle{
+    font-size: 0.6rem;
+    font-weight: bold;
+    padding: 0.5rem 0rem;
+}
+button{
+    border: none;
+    padding: 0.7rem 1rem;
+    color: #4f2626;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border-radius: 0.3rem;
+    font-size: 0.6rem;
+}
